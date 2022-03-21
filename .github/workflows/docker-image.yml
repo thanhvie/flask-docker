@@ -29,7 +29,7 @@ jobs:
       - name: Cache Docker Image Layers
         uses: actions/cache@v2
         with:
-          path: /temp/.buildx-cache
+          path: /tmp/.buildx-cache
           key: ${{runner.os}}-buildx-${{github.sha}}
           restore-keys:
             ${{runner.os}}-buildx-
