@@ -14,3 +14,6 @@ The docker image of every build will be assigned a different image tag.
 ## The image repository for this project is here
 
 [huynhthviet/dockerhub:flaskapp-docker](https://github.com/marketplace/actions/build-and-push-docker-images)
+
+## Run docker image created by github actions workflow
+- We can run docker image created by workflow in the same way as above
