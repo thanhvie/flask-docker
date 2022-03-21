@@ -7,7 +7,7 @@ on:
     branches: [ master, main ]
 
 jobs:
-  flake8 and test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
