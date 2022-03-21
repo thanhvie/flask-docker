@@ -1,7 +1,10 @@
-# flask-docker
+# how to run flask-docker
+- Install docker if you don't have yet
+- Run docker image below, we will run the image in detach mode and at port 5000
 ````
 docker run -d -p 5000:5000 huynhthviet/dockerhub:flaskapp-docker
 ````
+- Access the web app at localhost:5000
 
 # github actions
 Github actions show an example workflow for building and pushing docker image to a docker image repository.
