@@ -43,7 +43,6 @@ jobs:
           builder: ${{steps.buildx.output.name}}
           push: true
           tags: ${{secrets.DOCKER_HUB_USERNAME}}/flask-helloworld
-          labels: $(date +%s)
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
       
