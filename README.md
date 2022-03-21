@@ -10,4 +10,4 @@ The docker image of every build will be assigned a different image tag.
 
 ## The image repository for this project is here
 
-huynhthviet/dockerhub:flaskapp-docker(https://github.com/marketplace/actions/build-and-push-docker-images)
+[huynhthviet/dockerhub:flaskapp-docker](https://github.com/marketplace/actions/build-and-push-docker-images)
